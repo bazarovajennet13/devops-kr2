@@ -7,7 +7,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 r = redis.Redis(
-    host=os.getenv("REDIS_HOST", "localhost"),
+    host=os.getenv("REDIS_HOST", "redis"),
     port=6379,
     password=os.getenv("REDIS_PASSWORD"),
     socket_connect_timeout=2,
