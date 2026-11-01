@@ -1,3 +1,4 @@
+# KR2: Базарова
 import os
 import socket
 
